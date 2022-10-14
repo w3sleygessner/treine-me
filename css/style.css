@@ -1,0 +1,112 @@
+/************ global css ************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.light-green {
+  font-weight: bold;
+  color: #57b894;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #7c7887;
+}
+
+.page {
+  width: 1000px;
+  margin: 60px auto 0;
+}
+
+/************ header ************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #57b894;
+  font-family: "Mulish", sans-serif;
+}
+
+header nav ul {
+  display: flex;
+  gap: 0px 48px;
+}
+
+header nav ul li a {
+  text-transform: capitalize;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  color: #7c7887;
+}
+header nav ul li a:hover {
+  font-weight: bold;
+  color: #111;
+}
+
+/************ hero ************/
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px auto;
+}
+
+.hero .text h2 {
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  font-family: "Mulish", sans-serif;
+}
+
+.hero .text p {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 25px 0;
+}
+
+.hero .text .button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #57b894;
+  color: #fff;
+}
+
+.hero .text .button:hover {
+  background-color: #64c4a0;
+}
+
+.hero__img {
+  width: 350px;
+}
+
+/************ footer ************/
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 20px;
+}
+
+footer a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7c7887;
+}
+
+footer a:hover {
+  color: #64c4a0;
+}
