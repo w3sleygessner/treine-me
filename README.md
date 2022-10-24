@@ -1,6 +1,8 @@
-> explorer_projeto-02
-## Projeto desenvolvido com base nos estudos realizados no curso explorer da Rocketseat.
+Landing Page focada em oferecer os melhores treinos/exercícios para melhor qualidade de vida.
 
-# treine.me
+<img src="https://i.imgur.com/4cjc8Nu.png" alt="Demonstração do projeto - treine.me" width="800px" />
 
-<img src="https://i.imgur.com/4cjc8Nu.png" alt="Demonstração do projeto - treine.me" width="600px" />
+### Tecnologia utilizadas:
+
+- HTML
+- CSS
